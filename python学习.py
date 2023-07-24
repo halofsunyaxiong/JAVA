@@ -74,4 +74,46 @@ print(f"第{n}天，表白成功。")
     
     
 
+# for循环打印九九乘法表
 
+for i in range(1,10):
+    for j in range(1,i+1):
+     print(f"{i}*{j}={i*j}\t", end = "") 
+    print()  
+    
+# 在循环中控制其循环效果的关键字；
+# continue 关键字  中断本次循环，直接进入下一次循环。
+# 
+
+
+for i in range(1,6):
+    print("语句一")
+    print("语句二")
+    
+# 语句一
+# 语句二
+# 语句一
+# 语句二
+# 语句一
+# 语句二
+# 语句一
+# 语句二
+# 语句一
+# 语句二
+
+
+for i in range(1,6):
+    print("语句一")
+    continue
+    print("语句二")
+
+# 语句一
+# 语句一
+# 语句一
+# 语句一
+# 语句一
+for q in range(1,4):
+    print("you are a good friends")
+    for t in range(1,10):
+        print("i am fine")
+    print('fuck fuck fuck!')
