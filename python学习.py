@@ -13,6 +13,7 @@ for y in yanan:
     print(y)
 
 
+# for 循环是无法定义循环条件的
 
 
 
