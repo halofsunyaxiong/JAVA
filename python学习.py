@@ -117,3 +117,27 @@ for q in range(1,4):
     for t in range(1,10):
         print("i am fine")
     print('fuck fuck fuck!')
+
+print("--------------------------------------")
+
+
+# break 关键字  循环直接全部结束。
+for t in range(1,10):
+        print("good good good")
+        break
+        print("we come form the future")
+print('fuck fuck fuck!')
+
+
+
+
+
+
+
+p
+
+
+
+
+
+
