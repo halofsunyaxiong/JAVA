@@ -96,9 +96,12 @@ testa()
 testb() 
 print(num)
 
+# 银行atm机器
 
+money = 5000000
+name = None
 
-
+name = input("请输入你的姓名：")
 
 
 
