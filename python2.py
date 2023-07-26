@@ -59,7 +59,7 @@ print(my_list[1][1])
 he_list = [57,78,89]]
 he_list.insert(2,23)
 print(he_list)
-# 结果： [57,78,23]
+# 结果： [57,78,23,89]
 
 
 
