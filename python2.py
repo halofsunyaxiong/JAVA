@@ -53,6 +53,22 @@ print(my_list[1][1])
 
 
 # #列表的一系列功能，我们称之为列表的方法。  
+# 插入元素
+
+
+
+# 删除元素
+
+
+
+
+# index方法   查询功能列表元素中的下标索引：    格式 列表.index(元素)
+# 案例
+_list = ['er','ty','yu']
+index = _list.index('yu')
+print(f"yu在列表_list中的下标索引值是：{index}")
+# 结果：   yu在列表_list中的下标索引值是：2
+
   
   
   
