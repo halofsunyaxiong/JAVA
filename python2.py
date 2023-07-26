@@ -39,7 +39,16 @@ print(name_list[1])
 print(name_list[2])
 # 结果 lily
 
-  
+print(name_list[-1])  
+# 结果 lily
+print(name_list[-2])  
+# 结果 rose 
+print(name_list[-3]) 
+# 结果 tom
+
+# #嵌套列表的索引如何操作
+
+
   
   
   
