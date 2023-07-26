@@ -38,6 +38,7 @@ print(name_list[1])
 # 结果 rose
 print(name_list[2])
 # 结果 lily
+
   
   
   
