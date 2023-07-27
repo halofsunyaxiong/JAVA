@@ -3,7 +3,8 @@
 #.    定义变量名1 = 定义变量名.read()
 #   print(定义变量名1)
 #   定义变量名.colse()
-file = open('我爱Python.txt', encoding = '')
+#. 例文
+file = open('我爱Python.txt', encoding = 'urf-8')
 content = file.read()
 print(content)
 file.close()
