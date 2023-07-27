@@ -12,7 +12,7 @@
 
 
 # exit;    退出数据库
-# create good;  创建一个good数据库
+# create database good;  创建一个good数据库
 # source c://desktop/sol.sql  导入在电脑桌面的sol.sql的数据表格
 # select boy as boys from weather；  临时将boy修改为boys
 #
