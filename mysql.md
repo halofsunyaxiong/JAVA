@@ -7,9 +7,8 @@
 describe emp;   查看表格中的列；
 desc emp;
 select version(); 查看python的版本。
-
-
-
+select * from weather;  显示weather中的全部数据。
+select men,women,girl,boy,spring,summer from weather;  显示weather中men,women,girl,spring,summer的数据。
 
 
 exit;    退出数据库
