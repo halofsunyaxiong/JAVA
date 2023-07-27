@@ -8,3 +8,6 @@ file = open('我爱Python.txt', encoding = 'urf-8')
 content = file.read()
 print(content)
 file.close()
+
+
+# python的文件写入
