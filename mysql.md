@@ -69,8 +69,15 @@
 
 
 
-# 
-#
+#  select men,women,girl,boy,spring,summer,fall,winter from weather where girl is null;
++------+-------+------+------+--------+--------+------+--------+
+| men  | women | girl | boy  | spring | summer | fall | winter |
++------+-------+------+------+--------+--------+------+--------+
+|    4 |  NULL | NULL |    0 | y      |        |    8 |      9 |
++------+-------+------+------+--------+--------+------+--------+
+1 row in set (0.00 sec)
+
+# 根据条件girl is null 在数据表中筛选出符合条件的数据。
 #
 #
 #
