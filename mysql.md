@@ -16,7 +16,18 @@
 # source c://desktop/sol.sql  导入在电脑桌面的sol.sql的数据表格
 # select boy as boys from weather；  临时将boy修改为boys
 # select women as "r tt" from weather;临时将women修改为r tt 有空格时，直接将用“ 内容 ”。
-#
+#    select fall*8 from weather;  给weather中的fall全部乘数8 得到的值。
++--------+
+| fall*8 |
++--------+
+|     72 |
+|     64 |
+|     72 |
+|      8 |
+|     48 |
++--------+
+5 rows in set (0.00 sec)
+
 #
 #
 #
