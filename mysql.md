@@ -87,7 +87,7 @@ or 的优先级别是要大于and 的优先级别的
 
 # in 的运用，fall in(8,6)
 
-select * from weather where fall in(8,6); 表示的是fall 等于8，6的数来直接筛选出来。
+select * from weather where fall in(8,6); 表示的是fall **等于** 8，6的数来直接筛选出来。
 
 
 +------+-------+------+------+--------+--------+------+--------+
