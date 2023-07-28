@@ -4,10 +4,13 @@
 #   print(定义变量名1)
 #   定义变量名.colse()
 #. 例文
-file = open('我爱Python.txt', encoding = 'urf-8')
-content = file.read()
-print(content)
-file.close()
+
+
+# file = open('mysql.md', encoding = 'urf-8')
+# content = file.read()
+# print(content)
+# file.close()
+
 
 
 # python的文件写入
