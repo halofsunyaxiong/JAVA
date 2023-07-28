@@ -28,7 +28,17 @@
 +--------+
 5 rows in set (0.00 sec)
 
-#
+# select fall*12 yearshall from weather;
++-----------+
+| yearshall |
++-----------+
+|       108 |
+|        96 |
+|       108 |
+|        12 |
+|        72 |
++-----------+
+5 rows in set (0.00 sec)
 #
 #
 #
