@@ -55,8 +55,16 @@
 |   12 |   34 |    6 |
 +------+------+------+
 4 rows in set (0.00 sec)
-
-#
+<!-- 在数据库中将and 条件都符合的数据都取出来。 -->
+#  select men,girl,fall from weather where fall>= 6 and fall<=8;
+<!-- select men,girl,fall from weather fall between 6 and 8;-->
++------+------+------+
+| men  | girl | fall |
++------+------+------+
+|    1 |    6 |    8 |
+|   12 |   34 |    6 |
++------+------+------+
+2 rows in set (0.00 sec)
 #
 #
 #
