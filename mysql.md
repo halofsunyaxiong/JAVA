@@ -126,3 +126,6 @@ select * from weather where fall not in(8,6);    表示的是fall **不等于** 
 
 # mysql 中的模糊查询。
 
+
+
+
