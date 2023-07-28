@@ -29,6 +29,7 @@
 +--------+
 5 rows in set (0.00 sec)
 =======
+
 <<<<<<< HEAD
 # select fall*12 yearshall from weather;
 +-----------+
@@ -43,8 +44,18 @@
 5 rows in set (0.00 sec)
 =======
 
-#
-#
+# 条件判断和大小的比较。选择出符合大小条件的数据。
+# select men,girl,fall from weather where fall >= 6;
++------+------+------+
+| men  | girl | fall |
++------+------+------+
+|    3 |    5 |    9 |
+|    1 |    6 |    8 |
+|    4 |   56 |    9 |
+|   12 |   34 |    6 |
++------+------+------+
+4 rows in set (0.00 sec)
+
 #
 #
 #
