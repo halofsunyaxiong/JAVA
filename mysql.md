@@ -4,9 +4,8 @@
 # use mydata; 进入mydata的数据库
 # show tables; 查看mydata数据库的所以表格
 # select * from dish; 查看表格中的dish数据的全部；
-# describe emp;   查看表格中的列；
 # desc emp;
-# select version(); 查看python的版本。
+# select version(); 查看mysql的版本。
 # select * from weather;  显示weather中的全部数据。
 # select men,women,girl,boy,spring,summer from weather;  显示weather中men,women,girl,spring,summer的数据。
 
@@ -109,3 +108,21 @@ select * from weather where fall not in(8,6);    表示的是fall **不等于** 
 |    2 |     3 |    2 |    1 | 1      | 3      |    1 |      3 |
 +------+-------+------+------+--------+--------+------+--------+
 2 rows in set (0.00 sec)
+
+
+# select * from weather;
++------+-------+------+------+--------+--------+------+--------+
+| men  | women | girl | boy  | spring | summer | fall | winter |
++------+-------+------+------+--------+--------+------+--------+
+|    3 |     4 |    5 |    6 | 7      | 7      |    9 |      0 |
+|    1 |     1 |    6 |    6 | hj     | 9      |    8 |      0 |
+|    4 |  NULL | NULL |    0 | y      |        |    8 |      9 |
+|    2 |     3 |    2 |    1 | 1      | 3      |    1 |      3 |
+|   12 |    23 | NULL |    5 | 6      | 6      |    6 |      6 |
++------+-------+------+------+--------+--------+------+--------+
+5 rows in set (0.00 sec)
+
+
+
+# mysql 中的模糊查询。
+
