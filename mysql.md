@@ -2,7 +2,7 @@
 # DBMS 数据库管理系统
 >>sql 关联式数据库  例子mysql    简称rdbms
 
->>no sql 非关联性数据库  例子redis   简称nrdbns
+>>nosql 非关联性数据库  例子redis   简称nrdbns
 
 
 
