@@ -47,6 +47,28 @@ def get_money(num):
     query(False)
     
 # 主菜单函数
-def():
-    print((f"{name}，你好，欢迎来到SUN银行，前选择操作：")
-          
+def main():
+    print("------------------主菜单------------------")
+    print(f"{name}，你好，欢迎来到SUN银行，前选择操作：")
+    print("查询余额 \t[输入1]")
+    print("存款\t\t[输入2]")
+    print("取款\t\t[输入3]")     
+    print("退出\t\t[输入4]")
+    return input("请输入你的选择：")      
+# 设置循环函数，确保程序不退出
+while True:
+    KeyboardInterrupt = main()
+    if KeyboardInterrupt =="1":
+        query(True)
+        continue
+    elif KeyboardInterrupt =="2":
+        num = int(input("你想要存多少钱，请输入："))
+        save(num)
+        continue
+    elif KeyboardInterrupt =="3":
+         num = int(input("你想要取多少钱，请输入："))
+         get_money(num)
+         continue
+    else:
+        print("程序推出了")
+        break
