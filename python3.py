@@ -47,4 +47,6 @@ def get_money(num):
     query(False)
     
 # 主菜单函数
-    
+def():
+    print((f"{name}，你好，欢迎来到SUN银行，前选择操作：")
+          
