@@ -10,7 +10,4 @@
 # content = file.read()
 # print(content)
 # file.close()
-
-
-
 # python的文件写入
