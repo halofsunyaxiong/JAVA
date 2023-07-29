@@ -1,4 +1,34 @@
 # 👆👆MySQL入门
+# DBMS 数据库管理系统
+>>sql 关联式数据库  例子mysql    简称rdbms
+
+>>no sql 非关联性数据库  例子redis   简称nrdbns
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # cmd>>MySQL _uroot _proot
 # show databases; 查看所有数据库
 # use mydata; 进入mydata的数据库
