@@ -15,6 +15,11 @@ class  ---- table；表格
 instance ---- rom （record）；记录
 attribute ---- column (field);字段
 
+> 表的关联关系
+   
+   one-one relation
+   
+
 
 
 
