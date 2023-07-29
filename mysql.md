@@ -6,9 +6,10 @@
 
 
 
-orm 思想
+>>orm 思想
 orm object retional mapping 数据库中的一个表，对应python中的一个类。
 表中的的一条数据，和Java或者python中的一个实体相对应。
+表中的一个列， 对应一个字段，field
 
 
 
