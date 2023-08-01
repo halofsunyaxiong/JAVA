@@ -46,3 +46,6 @@ print(type(School))
 print(id(School))
 #  <class 'type'>   类对象的type 是“type” 类型，模具类型。 
 #  2342402963648
+
+
+# 类属性attribute
