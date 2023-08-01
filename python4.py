@@ -69,13 +69,13 @@ s2.say_score()
 s3 = Person('sunyaxiong', 56)
 s3.say_score()
 
-s4 = Person('sunyaxiong', 56)
+s4 = Person('为', 56)
 s4.say_score()
 
-s5 = Person('sunyaxiong', 56)
+s5 = Person('额', 56)
 s5.say_score()
 
-s6 = Person('sunyaxiong', 56)
+s6 = Person('人', 56)
 s6.say_score()
 print('一共创建{0}个person对象' .format(Person.count))
 ''' 结果：
@@ -84,10 +84,16 @@ sunyaxiong 的分数值是： 56
 my company is: sxt
 sunyaxiong 的分数值是： 56
 my company is: sxt
-sunyaxiong 的分数值是： 56
+为 的分数值是： 56
 my company is: sxt
-sunyaxiong 的分数值是： 56
+额 的分数值是： 56
 my company is: sxt
-sunyaxiong 的分数值是： 56
+人 的分数值是： 56
 一共创建5个person对象
 '''
+#  #   内存过程：
+#     先开辟一个 称为   person 的模具对象。
+#     person中包含有  类属性（class attribute）  company    count  
+#                    类方法 （ class method）    say_SCORE
+#                    
+
