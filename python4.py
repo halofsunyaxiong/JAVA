@@ -5,17 +5,28 @@
 
 class Student:
 #  驼峰命名法 
+    
+    
     def __init__(self,name,score):
         # _int_  是错误的.
         self.naime = name
         self.score = score
 #   实例属性  
+    
+    
     def say_score(self):
         print('{0}的分数是{1}' .format(self.name,self.score))    
+#  实例方法
+
+
 
 s1 = Student('tom', 90)
-#  通过类名（参数列表）来调用函数
+#                     通过类名（参数列表）来调用函数
 s1.say_score()
+#  方法调用的格式：     实例名称.方法名称()
+#  解释器的调用实质是：   类名称.方法名称(实例名称)
+
+
 
 #  结果  tom的分数是90
 # # 构造函数 __init__()
