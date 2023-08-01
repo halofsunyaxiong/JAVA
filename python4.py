@@ -119,10 +119,12 @@ Man.printstation()
 # 使用静态方法的原因：类对象无关的方法，不操作对象的属性。
 # 静态方法的例子
 
-class Man:
+class Man1:
     station = 'sinnjyuku'
     @staticmethod
-    def printstation(cls):
-        print(cls.station)
-Man.printstation()              
+    def add(a,b):
+        print('{0}+{1} = {2}' .format(a,b,a+b))
+        return a+b
+
+Man1.add(34,45)              
 
