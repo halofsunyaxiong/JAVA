@@ -91,7 +91,7 @@ my company is: sxt
 人 的分数值是： 56
 一共创建5个person对象
 '''
-#  #   内存过程：
+#  #   内存原理：
 #     先开辟一个 称为   person 的模具对象。
 #     person中包含有  类属性（class attribute）  company    count  
 #                    类方法 （ class method）    say_SCORE
