@@ -20,9 +20,14 @@ print('阶乘100的值为:',get_jc(100))
 阶乘50的值为: 30414093201713378043612608166064768844377641568960512000000000000
 阶乘100的值为: 93326215443944152681699238856266700490715968264381621468
 '''
-
-
-
+# 求一个圆的面积
+import math
+    #  引入一个math文件库
+def compute_area_of_circle(r):
+    return round(math.pi* r * r,2)
+print(compute_area_of_circle(3))
+print(compute_area_of_circle(7))
+print(compute_area_of_circle(15))
 
 
 
