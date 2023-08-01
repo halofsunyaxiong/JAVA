@@ -5,21 +5,14 @@
 
 class Student:
 #  驼峰命名法 
-    
-    
     def __init__(self,name,score):
         # _int_  是错误的.
-        self.naime = name
+        self.name = name
         self.score = score
-#   实例属性  
-    
-    
+#   实例属性   
     def say_score(self):
-        print('{0}的分数是{1}' .format(self.name,self.score))    
+        print('{0}的分数是{1}'.format(self.name,self.score))    
 #  实例方法
-
-
-
 s1 = Student('tom', 90)
 #  实例属性的调用：         实例名称= 类名(参数列表)
 s1.say_score()
@@ -36,3 +29,20 @@ s1.say_score()
 #  python中的self 相当于c++中的指针，
 
 #  类方法的实质是 函数    def __init__(self,形参2,形参3)
+
+
+
+
+
+
+
+
+
+# 类对象
+class School:
+    pass
+
+print(type(School))
+print(id(School))
+#  <class 'type'>   类对象的type 是“type” 类型，模具类型。 
+#  2342402963648
