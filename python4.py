@@ -17,10 +17,7 @@ s1 = Student('tom', 90)
 #  实例属性的调用：         实例名称= 类名(参数列表)
 s1.say_score()
 #  方法调用的格式：         实例名称.方法名称()
-#                                           解释器的调用实质是：   类名称.方法名称(实例名称)
-
-
-
+#                      解释器的调用实质是：   类名称.方法名称(实例名称)
 #  结果  tom的分数是90
 # # 构造函数 __init__()
 #  通过类名（参数列表）来调用函数时：
@@ -49,3 +46,48 @@ print(id(School))
 
 
 # 类属性attribute
+# 类属性的例子
+
+class Person:
+    company = 'sxt'
+    count = 0
+    
+    def __init__(self,NAME,SCORE):
+        self.NAME = NAME
+        self.SCORE = SCORE
+        Person.count = Person.count + 1
+        
+    def say_score(self):
+        print('my company is:',Person.company)
+        print(self.NAME,'的分数值是：',self.SCORE)
+        
+s2 = Person('sunyaxiong', 56)
+s2.say_score()
+
+
+
+s3 = Person('sunyaxiong', 56)
+s3.say_score()
+
+s4 = Person('sunyaxiong', 56)
+s4.say_score()
+
+s5 = Person('sunyaxiong', 56)
+s5.say_score()
+
+s6 = Person('sunyaxiong', 56)
+s6.say_score()
+print('一共创建{0}个person对象' .format(Person.count))
+''' 结果：
+my company is: sxt
+sunyaxiong 的分数值是： 56
+my company is: sxt
+sunyaxiong 的分数值是： 56
+my company is: sxt
+sunyaxiong 的分数值是： 56
+my company is: sxt
+sunyaxiong 的分数值是： 56
+my company is: sxt
+sunyaxiong 的分数值是： 56
+一共创建5个person对象
+'''
