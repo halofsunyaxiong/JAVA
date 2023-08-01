@@ -9,17 +9,23 @@ class Student:
         # _int_  是错误的.
         self.name = name
         self.score = score
-#   实例属性   
+#   👆👆👆👆👆👆实例属性   
     def say_score(self):
         print('{0}的分数是{1}'.format(self.name,self.score))    
-#  实例方法
+#  👆👆👆👆👆👆实例方法
+
+
+
 s1 = Student('tom', 90)
 #  实例属性的调用：         实例名称= 类名(参数列表)
 s1.say_score()
 #  方法调用的格式：         实例名称.方法名称()
 #                      解释器的调用实质是：   类名称.方法名称(实例名称)
 #  结果  tom的分数是90
-# # 构造函数 __init__()
+
+
+
+# # 👆👆👆构造函数 __init__()
 #  通过类名（参数列表）来调用函数时：
 #  __new__()   初始化创建的对象，初始化 一般指的是给“实例属性来赋值”。
 #  __init__()  用于创建对象，但是我们一般不用输入。
@@ -35,7 +41,7 @@ s1.say_score()
 
 
 
-# 类对象
+# 👆👆👆👆👆👆类对象
 class School:
     pass
 
@@ -45,7 +51,7 @@ print(id(School))
 #  2342402963648
 
 
-# 类属性attribute
+# 👆👆👆👆👆👆类属性attribute
 # 类属性的例子
 
 class Person:
@@ -91,7 +97,7 @@ my company is: sxt
 人 的分数值是： 56
 一共创建5个person对象
 '''
-#  #   内存原理：
+#  #   👆👆👆内存原理：
 #     先开辟一个 称为   person 的模具对象。
 #     person中包含有  类属性（class attribute）  company    count  
 #                    类方法 （ class method）    say_SCORE
