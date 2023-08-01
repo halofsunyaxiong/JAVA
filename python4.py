@@ -1,6 +1,6 @@
 # python面向对象的编程   oop   object  orient ed programming
 # 这一部分是python学习的重点。
-# 类  对象  方法method   类属性  类方法method
+# 类  对象  方法method   类属性at tribute  类方法method
 # 例子
 
 class Student:
@@ -21,10 +21,10 @@ class Student:
 
 
 s1 = Student('tom', 90)
-#                     通过类名（参数列表）来调用函数
+#  实例属性的调用：         实例名称= 类名(参数列表)
 s1.say_score()
-#  方法调用的格式：     实例名称.方法名称()
-#  解释器的调用实质是：   类名称.方法名称(实例名称)
+#  方法调用的格式：         实例名称.方法名称()
+#                                           解释器的调用实质是：   类名称.方法名称(实例名称)
 
 
 
