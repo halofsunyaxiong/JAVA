@@ -103,7 +103,7 @@ my company is: sxt
 #                    **实例方法 （ class method）    say_SCORE**
 
 
-# 👆👆👆👆👆👆类方法attribute
+# 👆👆👆👆👆👆类方法method
 # 类方法的例子
 class Man:
     station = 'sinnjyuku'
@@ -114,5 +114,15 @@ Man.printstation()
 #   结果：   sinnjyuku
 
 
-                 
+
+# 👆👆👆👆👆👆静态方法 static method
+# 使用静态方法的原因：类对象无关的方法，不操作对象的属性。
+# 静态方法的例子
+
+class Man:
+    station = 'sinnjyuku'
+    @staticmethod
+    def printstation(cls):
+        print(cls.station)
+Man.printstation()              
 
