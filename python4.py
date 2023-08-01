@@ -9,7 +9,7 @@ class Student:
         # _int_  是错误的.
         self.naime = name
         self.score = score
-#   属性  
+#   实例属性  
     def say_score(self):
         print('{0}的分数是{1}' .format(self.name,self.score))    
 
